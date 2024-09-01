@@ -1,0 +1,13 @@
+# Make a list
+#Append that list add stuff to it
+print("This is my first statement")# makes a print statement
+
+my_list = []# creates an array list
+names = ["Tom", "darrel", "neyo"]#Fills a list with names
+print(names)
+names.append("jane")# adding a name to the list
+print(names)
+my_list.append(5)# adding a number to the list
+print(my_list)
+secondName = names[2]# Asking what for a name to show up in spot 2. Notice the list starts at one
+print(secondName)
