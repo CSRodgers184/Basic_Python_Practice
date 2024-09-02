@@ -1,0 +1,27 @@
+print("Start typing")
+astring = "I'm super thanks for asking"
+
+#Find the length
+print(len(astring))
+
+#Find the index
+print(astring.index("s"))
+
+#find the index group
+print(astring[4:8])
+
+# So Start stop and step
+print(astring[1:27:3])
+
+# Type a string in reverse
+print(astring[::-1])
+
+
+# Makke uppercase and lower case
+print(astring.upper())
+print(astring.lower())
+
+
+# Show Starts with and ends with exercise
+print(astring.startswith("I'm"))
+print(astring.endswith("sucky"))
