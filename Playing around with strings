@@ -1,0 +1,21 @@
+astring = "Hello world!"
+print("single quotes are ' '")#Single quotes
+
+print(len(astring))#Length
+print(astring.index("o"))#Printing INdexes
+print(astring.count("l"))#The Number of Letters 
+print(astring[3:7])#prints a part of the letters
+print(astring[0:10:2])#prints every two letter or [start:stop:step]
+print(astring[::-1])#Spell Backwards
+print(astring.upper())#UpperCaase 
+print(astring.lower())#Lower Case
+print(astring.startswith("Hello"))# Determines beginning Case sensitive
+print(astring.endswith("asdfasdfasdf"))#Determines ending
+afewwords = astring.split(" ")#Will split the words up by spaces
+
+#Preactice string format
+#%s - String (or any object with a string representation, like numbers)
+#%d - Integers
+#%f - Floating point numbers
+#%.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+#%x/%X - Integers in hex representation (lowercase/uppercase)
