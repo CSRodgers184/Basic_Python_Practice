@@ -16,3 +16,14 @@ for x in range(3, 6):
 # Prints out 3,5,7
 for x in range(3, 8, 2):
     print(x)
+
+#array
+votes = [2, 4]
+for vote in votes:
+
+  #adds on votes to the array
+  votes.extend([8, 5, 7])
+  print(votes)
+
+#stops the array from printing mulitple times
+  break
