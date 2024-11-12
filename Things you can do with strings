@@ -14,4 +14,12 @@ position:int =text.find('cats')#find in the
 print(position)
 print(text[position:])
 
-text: str = "There eating the cats and Eating the Dogs"
+#format() formatting the string
+text: str = "There eating the {subject} and {action} the Dogs"
+print(text.format(subject = "cat", action = "drinking"))
+
+#10 format_map()
+coordinates: dict = {'x':10, 'y':-5}# forats a dictionary
+text: str = "Coordinates: ({x},{y})"
+print(text.format_map(coordinates))
+
