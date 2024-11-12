@@ -8,8 +8,14 @@ class Person:
     def introduce(self):
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
-# Create an object of the class
+# Create an object of the class(aka Calls the Class(name,age))
 person1 = Person("Alice", 30)
 
 # Call the method
 person1.introduce()
+
+
+
+#Without self:__init__() takes 2 positional arguments but 3 were given
+#self is In Python, self is a reference to the instance of the class itself. It allows you to access and modify the attributes and
+# methods of that specific instance within the class definition.
