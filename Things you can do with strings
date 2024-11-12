@@ -1,0 +1,17 @@
+text: str = "There eating the cats and Eating the Dogs"
+print(text.capitalize())
+print(text.casefold())
+print(text.center(90))#How many strings you want to include in the string
+print(text.count("e"))#What are the occurances of a letter or set of letters
+print(text.encode(encoding='UTF-8', errors='strict'))#allows a code to be encoded
+print(text.endswith('d'))
+
+
+text: str = "There eating \te cats and Eating the Dogs"
+print(text.expandstabs(20))# Expands the tabs
+
+position:int =text.find('cats')#find in the 
+print(position)
+print(text[position:])
+
+text: str = "There eating the cats and Eating the Dogs"
