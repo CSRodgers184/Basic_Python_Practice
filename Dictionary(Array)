@@ -5,6 +5,8 @@ phonebook = {
 }
 print(phonebook)
 
+Adding to the dictionary
+phonebook["Jake"] = 938273443  
 
 Writing over information in the Libraray(Iterating over Dictionary)
 
