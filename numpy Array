@@ -1,0 +1,61 @@
+import numpy as np
+
+# Create a 2D NumPy array
+matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+# Print the array
+print("Matrix:")
+print(matrix)
+
+# Access a specific element (row 2, column 3)
+element = matrix[1, 2]  # Indexing starts at 0
+print("\nElement at row 2, column 3:", element)
+
+# Slice the array (get all rows, second column)
+column_slice = matrix[:, 1]
+print("\nSecond column:")
+print(column_slice)
+
+# Add 10 to each element
+matrix_plus_10 = matrix + 10
+print("\nMatrix after adding 10 to each element:")
+print(matrix_plus_10)
+
+# Calculate the transpose
+matrix_transpose = matrix.T
+print("\nTranspose of the matrix:")
+print(matrix_transpose)
+
+# Perform matrix multiplication
+result = np.dot(matrix, matrix_transpose)
+print("\nMatrix multiplication (Matrix * Transpose):")
+print(result)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OUTPUT
+
+Matrix:
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+
+Element at row 2, column 3: 6
+
+Second column:
+[2 5 8]
+
+Matrix after adding 10 to each element:
+[[11 12 13]
+ [14 15 16]
+ [17 18 19]]
+
+Transpose of the matrix:
+[[1 4 7]
+ [2 5 8]
+ [3 6 9]]
+
+Matrix multiplication (Matrix * Transpose):
+[[ 14  32  50]
+ [ 32  77 122]
+ [ 50 122 194]]
